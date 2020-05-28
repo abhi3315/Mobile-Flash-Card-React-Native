@@ -8,7 +8,7 @@ import reducer from './reducers/index'
 import Constants from 'expo-constants'
 import { setLocalNotification } from './utils/helper'
 import DeckList from './components/DeckList'
-import AddDeck from './components/AddDeck'
+import AddDeck, { AddCard } from './components/AddCard'
 
 const store = createStore(
   reducer,
@@ -31,7 +31,7 @@ export default class App extends React.Component {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-          <DeckList />
+          <AddCard />
         </View>
       </Provider>
     )

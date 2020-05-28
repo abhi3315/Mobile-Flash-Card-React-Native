@@ -35,7 +35,7 @@ export class DeckDetail extends Component {
                         }
                     >
                         Add Card
-          </TouchButton>
+                    </TouchButton>
                     <TouchButton
                         btnStyle={{ backgroundColor: green, borderColor: white }}
                         txtStyle={{ color: white }}
@@ -44,14 +44,14 @@ export class DeckDetail extends Component {
                         }
                     >
                         Start Quiz
-          </TouchButton>
+                    </TouchButton>
                 </View>
                 <TextButton
                     txtStyle={{ color: red }}
                     onPress={() => this.handleDelete(deck.title)}
                 >
                     Delete Deck
-        </TextButton>
+                </TextButton>
             </View>
         )
     }

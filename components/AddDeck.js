@@ -60,7 +60,7 @@ export class AddDeck extends Component {
                     disabled={this.state.text === ''}
                 >
                     Create Deck
-        </TouchButton>
+                </TouchButton>
             </View>
         )
     }
