@@ -8,6 +8,7 @@ import reducer from './reducers/index'
 import Constants from 'expo-constants'
 import { setLocalNotification } from './utils/helper'
 import DeckList from './components/DeckList'
+import AddDeck from './components/AddDeck'
 
 const store = createStore(
   reducer,
